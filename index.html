@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>reveal.js – The HTML Presentation Framework</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>What if ...</h1>
+          <!--<h3>SciPy 2016 Lightning talk</h3>-->
+          <p>
+            <small><a href="https://github.com/jcfr">@jcfr</a></small>
+          </p>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ##You could
+
+            <!--<img width="640" height="237" data-src="./images/baguette.jpg">
+            
+            <small>_Source: wikipedia.org_</small>-->
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ##Use your favorite
+
+            <img width="259" height="194" data-src="./images/cheese.jpg">
+            
+            <small>_Source: wikipedia.org_</small>
+          </script>
+        </section>
+
+        <section>
+          <pre>Samuel <b>late</b> last night ... </pre><br>
+
+          <blockquote>&ldquo;Wouldn't be cool to be struck by lightning while doing a lightning talk&rdquo;</blockquote>
+
+          <img width="200" height="300" data-src="./images/lightning.jpg">
+
+          <br/><small><i>Source: wikipedia.org</i></small>
+        </section>
+
+        <section>
+
+          <img width="400" height="500" data-src="./images/notcool.jpg">
+
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ##More seriously
+          </script>
+        </section>
+
+        <section>
+          <img width="725" height="483" data-src="./images/bird.jpg">
+          
+          <br/><small><i>Source: : public-domain-image.com</i></small>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ##Back to our regular broadcast
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ##What if you could ...
+          </script>
+        </section>
+
+        <section>
+          <big><big>Easily build “non-pure” Wheels</big></big>
+
+          <br><br>
+
+          <blockquote>&ldquo;The ones with C++/C/Fortran&rdquo;</blockquote>
+        </section>
+
+        <section>
+          <big><big>Easily compile / cross-compile CPython interpreter</big></big>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+            ##Your life would be such much better
+
+            <img width="512" height="344" data-src="./images/chuck.jpg">
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ## Two projects:
+
+          * [github.com/scikit-build](https://github.com/scikit-build)
+
+          * [github.com/python-cmake-buildsystem](https://github.com/python-cmake-buildsystem)
+          </script>
+        </section>
+
+        <section data-markdown>
+          <script type="text/template">
+          ## Come sprint with us tomorrow
+
+          <img width="700" height="500" data-src="./images/sprint.jpg">
+
+          <small>_Source: https://www.flickr.com/photos/rosengrant/149380942_</small>
+          </script>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
