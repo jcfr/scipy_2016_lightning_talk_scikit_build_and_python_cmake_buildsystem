@@ -1,7 +1,7 @@
 Abstract
 ========
 
-This lightning talk was given at [SciPy 2016](http://scipy2016.scipy.org/) in Austin, Texas.
+This [lightning talk](https://jcfr.github.io/scipy_2016_lightning_talk_scikit_build_and_python_cmake_buildsystem) was given at [SciPy 2016](http://scipy2016.scipy.org/) in Austin, Texas.
 
 It presents two projects:
 
