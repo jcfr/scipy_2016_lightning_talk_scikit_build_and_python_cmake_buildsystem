@@ -1,3 +1,6 @@
+The MIT License (MIT)
+=====================
+
 Copyright (C) 2016 Hakim El Hattab, http://hakim.se
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

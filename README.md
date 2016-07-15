@@ -18,6 +18,10 @@ Unless specified otherwise, all Works of Art are licensed under the Creative Com
 by Attribution 4.0 License.
 See LICENSE_CC_BY_40 file for details.
 
+[Reveal.js](https://github.com/hakimel/reveal.js), the framework for easily creating beautiful presentations using HTML
+is licensed under MIT License.
+See LICENSE_MIT file for details.
+
 
 Current Author
 ==============
